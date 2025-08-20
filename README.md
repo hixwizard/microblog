@@ -27,3 +27,10 @@ pip install -r requirements.txt
 ```bash
 aiosmtpd -n -c aiosmtpd.handlers.Debugging -l localhost:8025
 ```
+
+Команды для локализации перевода (cli.py)
+```bash
+pybabel extract -F babel.cfg -k _l -o messages.pot .
+pybabel init -i messages.pot -d translations -l ru
+pybabel compile -d translations
+```

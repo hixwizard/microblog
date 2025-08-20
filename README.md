@@ -1,4 +1,4 @@
-###Microblog от автора Miguel Grinberg
+### Microblog от автора ![Miguel Grinberg](https://github.com/miguelgrinberg)
 
 
 ![Книга](https://image.ebooks.com/cover/96034028.jpg)
